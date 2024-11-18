@@ -1,0 +1,8 @@
+- CV 
+- Projet
+- Compétences
+- Formation
+- Exemple CSS
+
+- Construction du portfolio (Méthode Agiles)
+- Méthodologie UML
