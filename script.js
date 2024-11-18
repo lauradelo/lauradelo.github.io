@@ -1,4 +1,4 @@
-// React 16 Context/Store/Provider
+// React 16 Context//Provider
 // CSS Sprite Animator - Make CSS BoxSprite Animations
 // 
 // New    - Start a new Animation
@@ -67,10 +67,10 @@ const initialState = {
   copyArray: clone(blankArray),
   blankArray
 };
-// Create Store object
-const Store = React.createContext(initialState);
+// Create  object
+const  = React.createContext(initialState);
 
-// Store Functions
+//  Functions
 const exportFrames = (state) => {
   // Exports to a json array
   const { height, width, frames } = state;
@@ -214,7 +214,7 @@ const shiftFrame = (state, direction) => {
     canvasArray: matrix
   };
 };
-// End Store Functions
+// End  Functions
 
 // Reducer function
 const reducer = (state, action) => {
@@ -245,11 +245,11 @@ switch (action.type) {
       return state;
   }
 };
-// Set up Store Provider
-const StoreProvider = ({ children }) => {
+// Set up  Provider
+const Provider = ({ children }) => {
   const [state, dispatch] = React.useReducer(reducer, initialState);
   return (
-    <Store.Provider value={{ state, dispatch }}>{children}</Store.Provider>
+    <Store.Provider value={{ state, dispatch }}{children}</Store.Provider>
   );
 };
 // End Store and Store Provider
@@ -620,7 +620,7 @@ const Main = () => {
   return (
     <StoreProvider>
       <SpriteAnimator />
-    </StoreProvider>
+    </Provider>
   );
 };
 
