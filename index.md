@@ -1,37 +1,22 @@
-# jekyll-theme-read-the-docs
+# Laura DELOFFRE
 
-[![jsDelivr](https://data.jsdelivr.com/v1/package/gh/JV-conseil/jekyll-theme-read-the-docs/badge)](https://www.jsdelivr.com/package/gh/JV-conseil/jekyll-theme-read-the-docs)
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=JV-conseil.jekyll-theme-read-the-docs)
-[![CodeQL Advanced](https://github.com/JV-conseil/jekyll-theme-read-the-docs/actions/workflows/codeql.yml/badge.svg?branch=dev)](https://github.com/JV-conseil/jekyll-theme-read-the-docs/actions/workflows/codeql.yml)
-[![Umami - GDPR compliant alternative to Google Analytics](https://img.shields.io/badge/analytics-umami-green)](https://analytics.umami.is/share/M19mr5L7jVhHuFnb/jv-conseil.github.io "Umami - GDPR compliant alternative to Google Analytics")
-[![License EUPL 1.2](https://img.shields.io/badge/License-EUPL--1.2-blue.svg)](LICENSE)
-[![Become a sponsor to JV-conseil](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/JV-conseil "Become a sponsor to JV-conseil")
-[![Follow JV conseil on StackOverflow](https://img.shields.io/stackexchange/stackoverflow/r/2477854)](https://stackoverflow.com/users/2477854/jv-conseil "Follow JV conseil on StackOverflow")
-[![Follow JVconseil on Twitter](https://img.shields.io/twitter/follow/JVconseil.svg?style=social&logo=twitter)](https://twitter.com/JVconseil "Follow JVconseil on Twitter")
-[![Follow JVconseil on Mastodon](https://img.shields.io/mastodon/follow/110950122046692405)](https://mastodon.social/@JVconseil "Follow JVconseil@mastodon.social on Mastodon")
-[![Follow JV conseil on GitHub](https://img.shields.io/github/followers/JV-conseil?label=JV-conseil&style=social)](https://github.com/JV-conseil "Follow JV-conseil on GitHub")
-
-<!--
-![CI](https://github.com/JV-conseil/jekyll-theme-read-the-docs/workflows/CI/badge.svg?branch=develop)
-[![License BSD 3-Clause](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](LICENSE)
--->
-
-> Read the Docs 📖 like Jekyll Theme for GitHub Pages
-
-## What it does?
+## CV
 
 This theme is inspired by [sphinx-rtd-theme](https://github.com/jekyll-theme-read-the-docs/sphinx_rtd_theme) and refactored with:
 
 - [@primer/css](https://github.com/primer/css)
 - [github-pages](https://github.com/github/pages-gem) ([dependency versions](https://pages.github.com/versions/))
 
-## Quick start
+## Profile information
 
-```yml
-remote_theme: https://github.com/JV-conseil/jekyll-theme-read-the-docs
-```
-
-You can [generate][rundocs/starter] with the same files and folders from [rundocs/starter][rundocs/starter]
+| name          | Laura Deloffre                       |
+| `title`       | repo name                            |
+| email         | laura.deloffre@etudiant.univ-perp.fr |
+| `url`         | user domain or cname |
+| `baseurl`     | repo name            |
+| `lang`        | `en`                 |
+| `direction`   | `auto`               |
+| `highlighter` | `rouge`              |
 
 ## Usage
 
