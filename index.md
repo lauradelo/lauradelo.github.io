@@ -1,9 +1,7 @@
 ## CV
 
-This theme is inspired by [sphinx-rtd-theme](https://github.com/jekyll-theme-read-the-docs/sphinx_rtd_theme) and refactored with:
 
-- [@primer/css](https://github.com/primer/css)
-- [github-pages](https://github.com/lauradelo/lauradelo.github.io/cv.pdf)
+- [Mon CV](https://github.com/lauradelo/cv.pdf)
 
 ## Profile information
 
