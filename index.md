@@ -1,7 +1,7 @@
 ## CV
 
 
-- [Mon CV](https://github.com/lauradelo/cv.pdf)
+- [Mon CV](https://raw.githubusercontent.com/lauradelo/lauradelo.github.io/refs/heads/main/cv.pdf)
 
 ## Profile information
 
