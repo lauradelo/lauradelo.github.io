@@ -1,22 +1,14 @@
-# Laura DELOFFRE
-
 ## CV
 
 This theme is inspired by [sphinx-rtd-theme](https://github.com/jekyll-theme-read-the-docs/sphinx_rtd_theme) and refactored with:
 
 - [@primer/css](https://github.com/primer/css)
-- [github-pages](https://github.com/github/pages-gem) ([dependency versions](https://pages.github.com/versions/))
+- [github-pages](https://github.com/lauradelo/lauradelo.github.io/cv.pdf)
 
 ## Profile information
 
 | name          | Laura Deloffre                       |
-| `title`       | repo name                            |
 | email         | laura.deloffre@etudiant.univ-perp.fr |
-| `url`         | user domain or cname |
-| `baseurl`     | repo name            |
-| `lang`        | `en`                 |
-| `direction`   | `auto`               |
-| `highlighter` | `rouge`              |
 
 ## Usage
 
