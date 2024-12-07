@@ -1,20 +1,18 @@
 ---
 layout: default
-title: "Arnaud BONNEFOI - CV"
+title: "Laura DELOFFRE"
 ---
 
-# Arnaud BONNEFOI
+# Laura DELOFFRE
 
 ---
 
 ### Informations Personnelles
-- **Email** : [arnaud.bonnefoi@etudiant.univ-perp.fr](mailto:arnaud.bonnefoi@etudiant.univ-perp.fr)
-- **Téléphone** : Secret défense
-- **Adresse** : Oui oui oui
-- **Mobilité** : PARTOUT
-- **Âge** : 1000 ans
+- **Email** : [laura.deloffre@etudiant.univ-perp.fr](mailto:laura.deloffre@etudiant.univ-perp.fr)
+- **Adresse** : Carcassonne
+- **Mobilité** : Région Occitanie
+- **Âge** : 20 ans
 - **Permis** : B
-- **Véhicule personnel** : La plus belle de toute
 - **CV** : [Mon CV](https://raw.githubusercontent.com/arnaudbonnefoi/arnaudbonnefoi.github.io/main/cv.pdf)
 
 ---
@@ -47,7 +45,7 @@ title: "Arnaud BONNEFOI - CV"
 
 ### Expériences et Projets
 
-#### Alternance CD34 Service SIG
+#### Stage CNRS
 *2023-2025*
 
 #### Création d'une application web GPS
