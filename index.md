@@ -1,112 +1,71 @@
-## CV
+---
+layout: default
+title: "Arnaud BONNEFOI - CV"
+---
 
+# Arnaud BONNEFOI
 
-- [Mon CV](https://raw.githubusercontent.com/lauradelo/lauradelo.github.io/refs/heads/main/cv.pdf)
+---
 
-## Profile information
+### Informations Personnelles
+- **Email** : [arnaud.bonnefoi@etudiant.univ-perp.fr](mailto:arnaud.bonnefoi@etudiant.univ-perp.fr)
+- **Téléphone** : Secret défense
+- **Adresse** : Oui oui oui
+- **Mobilité** : PARTOUT
+- **Âge** : 1000 ans
+- **Permis** : B
+- **Véhicule personnel** : La plus belle de toute
+- **CV** : [Mon CV](https://raw.githubusercontent.com/arnaudbonnefoi/arnaudbonnefoi.github.io/main/cv.pdf)
 
-| name          | Laura Deloffre                       |
-| email         | laura.deloffre@etudiant.univ-perp.fr |
+---
 
-## Usage
+### Compétences
 
-Documentation that can guide how to create with Github pages, please refer to [rundocs/jekyll-rtd-theme](https://github.com/rundocs/jekyll-rtd-theme) for details
+#### Base de données
+- Extraction, nettoyage et gestion de BDD
+- Requêtes SQL et création de tableaux de bord
+- Automatisation de collecte de données sous BDD
 
-## Features
+#### Statistique
+- Conduite d’études statistiques
+- Analyse et communication des résultats
+- Conception de questionnaires
 
-- Shortcodes (Toasts card, mermaid)
-- Pages Plugins (emoji, gist, avatar, mentions)
-- Auto generate sidebar
-- [Attribute List Definitions](https://kramdown.gettalong.org/syntax.html#attribute-list-definitions) (Primer/css utilities, Font Awesome 4)
-- Service worker (caches)
-- SEO (404, robots.txt, sitemap.xml)
-- Canonical Link (Open Graph, Twitter Card, Schema data)
+#### Programmation
+- **Langages** : Python, SQL/PLSQL, R, HTML/CSS, JavaScript, PHP, SVG
+- **Logiciels** : FME, Microsoft Office (Excel, Access, PowerPoint, Power BI), ArcGIS, QGIS, pgAdmin
 
-## Options
+---
 
-| name          | default value        | description       |
-| ------------- | -------------------- | ----------------- |
-| `title`       | repo name            |                   |
-| `description` | repo description     |                   |
-| `url`         | user domain or cname |                   |
-| `baseurl`     | repo name            |                   |
-| `lang`        | `en`                 |                   |
-| `direction`   | `auto`               | `ltr` or `rtl`    |
-| `highlighter` | `rouge`              | Cannot be changed |
+### Formations
+- **BUT Science des Données (SD)**  
+  *Université de Perpignan, depuis septembre 2022*
+- **Baccalauréat général**  
+  *Lycée Georges Pompidou* - Mention assez bien
 
-```yml
-# folders sort
-readme_index:
-  with_frontmatter: true
+---
 
-meta:
-  key1: value1
-  key2: value2
-  .
-  .
-  .
+### Expériences et Projets
 
-google:
-  gtag:
-  adsense:
-  site_verification:
+#### Alternance CD34 Service SIG
+*2023-2025*
 
-# GDPR compliant alternative to Google Analytics
-mouseflow:
-  project_api_key:
+#### Création d'une application web GPS
+*Octobre 2023 à janvier 2024 - IUT Carcassonne*
+- Application web avec gestion de compte personnel
+- Visualisation cartographique (SIG), itinéraires, et points de repère
+- **Technologies** : MySQL, PHP, JavaScript
 
-posthog:
-  project_api_key:
+---
 
-telemetry:
-  app_id:
-  user_identifier:
+### Langues
+- **Anglais** : B2
+- **Espagnol** : B1
 
-umami:
-  website_id:
+---
 
-mathjax: # this will prased to json, default: {}
+### Centres d'Intérêt
+- **Électronique/Informatique** : Objets connectés, SIG
+- **Gomoku** : fan du jeu
 
-# NOTE: mermaid custom link are no longer supported
-# instead mermaid is updated to the lastest version
-# available through cdn.jsdelivr.net
-# mermaid:
-#   custom:     # mermaid link
-#   initialize: # this will prased to json, default: {}
-
-scss:   # also _includes/extra/styles.scss
-script: # also _includes/extra/script.js
-
-translate:
-  # shortcodes
-  danger:
-  note:
-  tip:
-  warning:
-  # 404
-  not_found:
-  # copyright
-  revision:
-  # search
-  searching:
-  search:
-  search_docs:
-  search_results:
-  search_results_found: # the "#" in this translate will replaced with results size!
-  search_results_not_found:
-
-plugins:
-  - jemoji
-  - jekyll-avatar
-  - jekyll-mentions
-```
-
-## Sponsorship
-
-If this project helps you, you can offer me a cup of coffee ☕️ :-)
-
-[![Become a sponsor to JV-conseil](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/JV-conseil)
-
-<!-- links -->
-
-[rundocs/starter]: https://github.com/rundocs/starter
+---
