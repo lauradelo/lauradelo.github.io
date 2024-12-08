@@ -1,4 +1,5 @@
 ---
+sidebar: true
 sort: 7
 ---
 
