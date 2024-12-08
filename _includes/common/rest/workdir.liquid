@@ -1,7 +1,8 @@
 {%- assign workdir = include.workdir | default: "projects" -%}
 
 {%- assign workdir_level = workdir | append: "temp" | replace_first: "/", "" | split: "/" | size -%}
-{%- assign workdir_files = site_files | where_exp: "item", "item.dir == workdir" -%}
+{%- assign workdir_files = site_files | where_exp: "item", "item.dir == workdir" | where: "name", "index.md" | remove -%}
+
 
 {%- capture items -%}
     {%- for item in site_dirs -%}
@@ -17,10 +18,3 @@
     {%- endfor -%}
 {%- endcapture -%}
 {%- assign workdir_dirs = items | split: "|" -%}
-
-<ul>
-  {% for file in workdir_files %}
-    <li>{{ file.dir }} - {{ file.name }} - {{ file.title }}</li>
-  {% endfor %}
-</ul>
-
