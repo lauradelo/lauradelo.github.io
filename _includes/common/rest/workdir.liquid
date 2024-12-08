@@ -17,3 +17,10 @@
     {%- endfor -%}
 {%- endcapture -%}
 {%- assign workdir_dirs = items | split: "|" -%}
+
+<ul>
+  {% for file in workdir_files %}
+    <li>{{ file.dir }} - {{ file.name }} - {{ file.title }}</li>
+  {% endfor %}
+</ul>
+
