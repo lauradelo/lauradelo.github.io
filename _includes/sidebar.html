@@ -1,0 +1,12 @@
+```
+<nav class="sidebar-nav">
+    <ul>
+        {% assign sorted_pages = site.pages | sort: 'title' %}
+        {% for page in sorted_pages %}
+            {% if page.title and page.path contains 'projects/' %}
+                <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</nav>
+```
