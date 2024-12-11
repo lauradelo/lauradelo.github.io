@@ -2,43 +2,35 @@
 .container {
   display: flex; /* Active Flexbox */
   flex-direction: row; /* Aligne les éléments horizontalement */
-  justify-content: space-between; /* Espace entre les éléments */
-  align-items: flex-start; /* Aligne les éléments en haut */
-  gap: 20px; /* Espace entre le contenu principal et la sidebar */
-  border: 2px dashed red; /* Bordure temporaire pour test */
-}
-
-
-/* Contenu principal */
-main {
-  flex: 3; /* Prend 75% de l'espace */
-  background-color: #f0f0f0; /* Couleur de fond pour test */
-  padding: 20px;
-  border: 1px solid #ccc; /* Bordure pour test */
+  justify-content: space-between; /* Sépare les éléments avec un espace */
+  align-items: flex-start; /* Aligne les éléments au sommet */
+  gap: 20px; /* Espace entre la sidebar et le contenu principal */
+  padding: 20px; /* Optionnel : ajout d'espacement */
 }
 
 /* Sidebar */
-aside {
-  flex: 1; /* Prend 25% de l'espace */
+.sidebar {
+  flex: 1; /* Sidebar occupe une partie de l'espace */
   background-color: #d9edf7; /* Couleur de fond pour test */
   padding: 20px;
   border: 1px solid #ccc; /* Bordure pour test */
 }
 
-
-/* Ajustement pour petits écrans */
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column; /* Les éléments s'empilent */
-  }
-
-  aside {
-    border-left: none;
-    border-top: 1px solid #ddd; /* Ligne de séparation horizontale */
-  }
+/* Contenu principal */
+.content {
+  flex: 3; /* Prend plus d'espace que la sidebar */
+  background-color: #f0f0f0; /* Couleur de fond pour test */
+  padding: 20px;
+  border: 1px solid #ccc; /* Bordure pour test */
 }
 
+/* Responsiveness */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Empile la sidebar et le contenu verticalement */
+  }
 
-main, aside {
-  border: 1px solid red; /* Bordures temporaires pour tester */
+  .sidebar {
+    margin-bottom: 20px; /* Espace entre la sidebar et le contenu */
+  }
 }
