@@ -3,25 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }}</title>
+  <title>Test Sidebar</title>
   <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
   <div class="container">
-    <header>
-      <h1>{{ site.title }}</h1>
-    </header>
     <main>
-      <section class="content">
-        {{ content }}
-      </section>
-      <aside>
-        {% include sidebar.html %}
-      </aside>
+      <h1>Contenu Principal</h1>
+      <p>Voici le contenu principal.</p>
     </main>
-    <footer>
-      <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
-    </footer>
+    <aside>
+      <h2>Sidebar</h2>
+      <ul>
+        <li>Élément 1</li>
+        <li>Élément 2</li>
+        <li>Élément 3</li>
+      </ul>
+    </aside>
   </div>
 </body>
 </html>
