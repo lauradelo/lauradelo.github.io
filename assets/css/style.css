@@ -3,8 +3,9 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f7f6; /* Couleur de fond douce */
+    background: linear-gradient(to bottom, #ffccd5, #f7f7f7); /* Dégradé de rose pâle à blanc */
     color: #333;
+    overflow-x: hidden; /* Pour éviter le défilement horizontal */
 }
 
 /* Conteneur principal */
@@ -20,65 +21,81 @@ body {
     position: fixed; /* Rendre la sidebar fixe à gauche */
     top: 0;
     left: 0;
-    width: 250px;
+    width: 280px; /* Légèrement plus large */
     height: 100vh;
-    background-color: #ffb6c1; /* Rose clair */
+    background: linear-gradient(to top, #ffb6c1, #ff8db8); /* Dégradé rose plus prononcé */
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px 0 0 10px;
+    box-shadow: 4px 0 15px rgba(0, 0, 0, 0.1); /* Ombre plus marquée */
+    z-index: 1; /* S'assurer que la sidebar soit devant */
 }
 
+/* Liste dans la sidebar */
 .sidebar ul {
     list-style: none;
     padding: 0;
 }
 
-.sidebar li {
-    margin: 15px 0;
-}
-
 /* Lien Accueil stylisé comme un bouton */
 .home-link {
     display: block;
-    padding: 12px;
+    padding: 14px;
     text-align: center;
     background-color: #00bfae; /* Vert clair */
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: bold;
     text-decoration: none;
-    border-radius: 8px;
-    transition: background-color 0.3s ease;
+    border-radius: 10px;
+    margin-bottom: 20px; /* Espacement entre le bouton et les liens */
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .home-link:hover {
     background-color: #00a084; /* Vert plus foncé */
+    transform: scale(1.05); /* Légère animation d'agrandissement au survol */
 }
 
 /* Liens dans la sidebar */
 .sidebar-link {
     display: block;
-    padding: 10px;
-    color: #333;
+    padding: 12px;
+    color: #fff;
     font-size: 1.1rem;
     text-decoration: none;
     border-radius: 8px;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-bottom: 15px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
+/* Changement de couleur au survol */
 .sidebar-link:hover {
-    background-color: #f5a8c9; /* Rose foncé */
+    background-color: #ff66b2; /* Rose foncé */
     color: white;
+    transform: scale(1.05); /* Effet de zoom sur les liens au survol */
 }
 
 /* Contenu principal */
 .content {
-    margin-left: 270px; /* Espacement pour la sidebar */
+    margin-left: 320px; /* Décalage pour la sidebar */
     padding: 20px;
     flex: 1;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: margin-left 0.3s ease; /* Animation lors de l'affichage */
+}
+
+/* Style des titres dans le contenu principal */
+.content h1, .content h2, .content h3 {
+    color: #ff3366; /* Couleur vive pour les titres */
+    border-bottom: 2px solid #ff3366; /* Sous-ligne les titres */
+    padding-bottom: 5px;
+}
+
+/* Ombre au niveau du titre */
+.content h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Pour une meilleure expérience mobile */
