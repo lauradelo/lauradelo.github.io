@@ -1,25 +1,28 @@
-/* Assurez-vous que le conteneur principal est un conteneur Flex */
+/* Conteneur principal */
 .container {
-  display: flex;
-  flex-direction: row; /* Les enfants s'alignent horizontalement */
-  gap: 20px; /* Espace entre les colonnes */
+  display: flex; /* Active Flexbox */
+  flex-direction: row; /* Aligne les éléments horizontalement */
+  justify-content: space-between; /* Espace entre les éléments */
   align-items: flex-start; /* Aligne les éléments en haut */
+  gap: 20px; /* Espace entre le contenu principal et la sidebar */
 }
 
-/* Section principale (contenu) */
+/* Contenu principal */
 main {
-  flex: 3; /* Prend plus d'espace */
+  flex: 3; /* Prend 75% de l'espace */
+  background-color: #f0f0f0; /* Couleur de fond pour test */
   padding: 20px;
+  border: 1px solid #ccc; /* Bordure pour test */
 }
 
 /* Sidebar */
 aside {
-  flex: 1; /* Prend moins d'espace */
+  flex: 1; /* Prend 25% de l'espace */
+  background-color: #d9edf7; /* Couleur de fond pour test */
   padding: 20px;
-  background-color: #f9f9f9;
-  border-left: 1px solid #ddd; /* Ligne de séparation */
-  min-width: 200px; /* Largeur minimale */
+  border: 1px solid #ccc; /* Bordure pour test */
 }
+
 
 /* Ajustement pour petits écrans */
 @media (max-width: 768px) {
