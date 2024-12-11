@@ -23,36 +23,6 @@ body {
   color: var(--content-text);
 }
 
-/* Conteneur principal */
-.container {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  box-sizing: border-box;
-}
-
-/* Sidebar */
-.sidebar {
-  flex: 1;
-  background-color: var(--sidebar-bg);
-  color: var(--sidebar-text);
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.sidebar ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.sidebar li {
-  margin: 10px 0;
-}
 
 .sidebar a {
   color: var(--sidebar-link);
@@ -63,16 +33,107 @@ body {
 .sidebar a:hover {
   color: var(--sidebar-link-hover);
 }
+/* Style général pour le corps de la page */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6; /* Couleur de fond douce */
+    color: #333;
+}
+
+/* Conteneur principal */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+    position: fixed; /* Rendre la sidebar fixe à gauche */
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: #ffb6c1; /* Rose clair */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 15px 0;
+}
+
+/* Lien Accueil stylisé comme un bouton */
+.home-link {
+    display: block;
+    padding: 12px;
+    text-align: center;
+    background-color: #00bfae; /* Vert clair */
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.home-link:hover {
+    background-color: #00a084; /* Vert plus foncé */
+}
+
+/* Liens dans la sidebar */
+.sidebar-link {
+    display: block;
+    padding: 10px;
+    color: #333;
+    font-size: 1.1rem;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.sidebar-link:hover {
+    background-color: #f5a8c9; /* Rose foncé */
+    color: white;
+}
 
 /* Contenu principal */
 .content {
-  flex: 3;
-  background-color: var(--content-bg);
-  padding: 20px;
-  border-radius: 8px;
-  border: 1px solid var(--border-color);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 270px; /* Espacement pour la sidebar */
+    padding: 20px;
+    flex: 1;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+/* Pour une meilleure expérience mobile */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        position: static; /* Sidebar devient déroulante */
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .content {
+        margin-left: 0;
+    }
+}
+
 
 /* Typographie */
 h1, h2, h3, h4, h5, h6 {
@@ -118,12 +179,7 @@ pre, code {
   overflow-x: auto;
 }
 
-/* Responsive design */
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
-}
+
 
 
 /* Lien Accueil stylisé comme un bouton */
