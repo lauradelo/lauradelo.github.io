@@ -13,7 +13,7 @@ title: "Laura DELOFFRE"
 - **Mobilité** : Région Occitanie
 - **Âge** : 20 ans
 - **Permis** : B
-- **CV** : [Mon CV](https://raw.githubusercontent.com/arnaudbonnefoi/arnaudbonnefoi.github.io/main/cv.pdf)
+- **CV** : [Mon CV](https://raw.githubusercontent.com/lauradelo/lauradelo.github.io/main/cv.pdf)
 
 ---
 
@@ -30,7 +30,7 @@ title: "Laura DELOFFRE"
 - Conception de questionnaires
 
 #### Programmation
-- **Langages** : Python, SQL/PLSQL, R, HTML/CSS, JavaScript, PHP, SVG
+- **Langages** : Python, SQL/PLSQL, R, HTML/CSS, PHP, SVG
 - **Logiciels** : FME, Microsoft Office (Excel, Access, PowerPoint, Power BI), ArcGIS, QGIS, pgAdmin
 
 ---
@@ -38,21 +38,21 @@ title: "Laura DELOFFRE"
 ### Formations
 - **BUT Science des Données (SD)**  
   *Université de Perpignan, depuis septembre 2022*
-- **Baccalauréat général**  
-  *Lycée Georges Pompidou* - Mention assez bien
+- **Baccalauréat général spécialité Anglais/MAthématiques**  
+  *Lycée Paul Sabatier*
 
 ---
 
 ### Expériences et Projets
 
-#### Stage CNRS
-*2023-2025*
+#### Stage développement d'une application R shiny pour exploration de données
+*2024 - CNRS CEFE*
 
 #### Création d'une application web GPS
 *Octobre 2023 à janvier 2024 - IUT Carcassonne*
 - Application web avec gestion de compte personnel
 - Visualisation cartographique (SIG), itinéraires, et points de repère
-- **Technologies** : MySQL, PHP, JavaScript
+- **Technologies** : PostgreSQL, PHP, HTML
 
 ---
 
@@ -63,7 +63,7 @@ title: "Laura DELOFFRE"
 ---
 
 ### Centres d'Intérêt
-- **Électronique/Informatique** : Objets connectés, SIG
-- **Gomoku** : fan du jeu
+- **Arts manuels** : Couture, crochet, broderie
+- **Lecture**
 
 ---
