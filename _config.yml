@@ -1,3 +1,22 @@
-title: Laura DELOFFRE
-theme: jekyll-theme-cayman
+title: "Laura DELOFFRE"
+description: "Portfolio et CV en ligne de Laura DELOFFRE"
+author:
+  name: "Laura DELOFFRE"
+  email: "laura.deloffre@etudiant.univ-perp.fr"
+baseurl: "" # Laissez vide si vous êtes sur la racine du site
+url: "https://votresite.com" # Remplacez par l'URL de votre site
 
+theme: jekyll-theme-minimal # Un thème simple et propre
+paginate: 5
+
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# L'ajout de couleurs et une touche moderne
+collections:
+  projects:
+    output: true
