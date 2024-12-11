@@ -62,12 +62,17 @@ title: "Laura DELOFFRE"
 
 ---
 
+### Centres d'Intérêt
+- **Arts manuels** : Couture, crochet, broderie
+- **Lecture**
 
-## Parcours Éducatif
+---
+
+### Parcours Éducatif
 
 Voici un diagramme représentant l'évolution de ma formation et de mes compétences au fil des années :
 
----mermaid
+```mermaid
 graph TD
     A[Début du BUT Science des Données] --> B[2022: Début à l'Université de Perpignan]
     B --> C[2023: Projet d'application web avec GPS]
@@ -84,8 +89,4 @@ graph TD
     style F fill:#66c2ff,stroke:#ff3366,stroke-width:4px
     style G fill:#ff66b2,stroke:#ff3366,stroke-width:4px
 
-### Centres d'Intérêt
-- **Arts manuels** : Couture, crochet, broderie
-- **Lecture**
 
----
