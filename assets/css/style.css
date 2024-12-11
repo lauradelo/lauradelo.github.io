@@ -1,12 +1,12 @@
-/* Conteneur principal */
+/* Assurez-vous que le conteneur principal est un conteneur Flex */
 .container {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  flex-direction: row; /* Les enfants s'alignent horizontalement */
   gap: 20px; /* Espace entre les colonnes */
+  align-items: flex-start; /* Aligne les éléments en haut */
 }
 
-/* Section principale */
+/* Section principale (contenu) */
 main {
   flex: 3; /* Prend plus d'espace */
   padding: 20px;
@@ -24,11 +24,16 @@ aside {
 /* Ajustement pour petits écrans */
 @media (max-width: 768px) {
   .container {
-    flex-direction: column; /* Empile les sections */
+    flex-direction: column; /* Les éléments s'empilent */
   }
 
   aside {
     border-left: none;
     border-top: 1px solid #ddd; /* Ligne de séparation horizontale */
   }
+}
+
+
+main, aside {
+  border: 1px solid red; /* Bordures temporaires pour tester */
 }
