@@ -3,22 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Test Sidebar</title>
+  <title>Laura DELOFFRE</title>
   <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
   <div class="container">
     <aside>
-      <h2>Sidebar</h2>
-      <ul>
-        <li>Élément 1</li>
-        <li>Élément 2</li>
-        <li>Élément 3</li>
-      </ul>
+      {% include sidebar.html %}
     </aside>
     <main>
-      <h1>Contenu Principal</h1>
-      <p>Ceci est le contenu principal.</p>
+      {% include index.md %}
     </main>
   </div>
 </body>
