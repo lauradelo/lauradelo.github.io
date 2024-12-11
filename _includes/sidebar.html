@@ -1,5 +1,6 @@
 <nav class="sidebar">
     <ul>
+        <li><a href="{{ site.baseurl | absolute_url }}">Accueil</a></li> <!-- Lien vers la page d'accueil -->
         {% assign sorted_pages = site.pages | sort: 'title' %}
         {% for page in sorted_pages %}
             {% if page.title and page.path contains 'projects/' %}
