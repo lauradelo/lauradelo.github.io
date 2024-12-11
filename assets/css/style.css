@@ -5,7 +5,9 @@
   justify-content: space-between; /* Espace entre les éléments */
   align-items: flex-start; /* Aligne les éléments en haut */
   gap: 20px; /* Espace entre le contenu principal et la sidebar */
+  border: 2px dashed red; /* Bordure temporaire pour test */
 }
+
 
 /* Contenu principal */
 main {
